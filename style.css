@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 1300px;
+    background-color: white;
+}
+
+.head > h1 {
+    display: inline-block;
+    margin-top: 37px;
+    margin-left: 180px;
+}
+
+.head > div > h1 {
+    font-size: 40px;
+}
+
+.head {
+    margin: 0 180px;
+}
+
+.head > div > img {
+    width: 119px;
+    height: 10px;
+    position: absolute;
+    top: 80px;
+    left: 290px;
+}
+
+.head > div:nth-child(1) > h1 > span {
+    color: rgb(0, 68, 255);
+}
+
+.head > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.box {
+    text-align: right ;
+    position: relative;
+}
+
+.box >  span {
+    position: absolute;
+    left: 170px;
+    top: 13px;
+}
+
+.box-list > ul > li {
+    list-style-type: none;
+    text-decoration: none ;
+    display: inline-block;
+    padding: 2px 15px;
+    background-color: rgba(128, 128, 128, 0.247);
+    border-radius: 2px;
+}
+
+.box-list > ul {
+    margin-left: 700px;
+    height: 30px; 
+}
+
+.body {
+    height: 187px;
+    background-color: #efefef;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box-title {
+    background-color: rgba(52, 52, 255, 0.89);
+    height: 109px;
+    width: 100%;
+}
+
+.title > div > h1 {
+    font-size: 40px;
+    line-height: 109px;
+}
+.abc {
+    width: 1080px; 
+    margin: 0 auto;
+}
+
+.abc > .box > input {
+    width: 200px;
+    height: 40px;
+    border-radius : 5px
+}
+
+.container {    
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.container > .box > input {
+    width: 170px;
+    height: 40px;
+    border-radius : 5px
+} 
+
+.main {
+    display: flex;
+    margin-top: 50px;
+}
+.main > div:nth-child(1) {
+    width: 100%;
+}
+
+.container > div:nth-child(3) {
+    width: 30%;
+}
+
+.list-box {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 15px;
+}
+
+.list-box > div {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.list-box > div > div {
+    display: flex;
+}
+
+.list-box > div > div > img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.list-box > div > h1 {
+    padding: 15px 0;
+}
+
+.list-box > div > div > div > a {
+    background-color: rgba(49, 49, 255, 0.815);
+    color: white;
+    padding: 8px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.list-box > div:nth-child(1) > div > div > button {
+    margin-top: 15px;
+}
+
+.side-nav {
+    padding-left: 30px;
+}
+
+.side-nav > div:nth-child(1) > b {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.side-nav > div:nth-child(2) > .last-nav {
+    margin-top: 50px;
+}
+
+.side-nav > div:nth-child(2) > h1 {
+    margin-top: 50px;
+}
+
+.first-nav > p:nth-child(odd) {
+    background-color: rgba(185, 185, 185, 0.877);
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+.side-nav > div:nth-child(2) > div:nth-child(3) {
+    display: flex;
+    margin-top: 41px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #007eff;
+    height: 95px;
+    color: white;
+}
+
+footer > div {
+    display: flex;
+    height: 100%;
+    align-items: center;    
+}
+
+footer > div > p {
+    width: 50%;
+    font-size: 12px;
+}
+
+footer > div > p:last-child {
+    text-align: center;
+}
+
+
+
+
